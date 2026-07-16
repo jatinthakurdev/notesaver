@@ -9,6 +9,7 @@ import Useref from "./Pages/Useref";
 import Usecontext from "./Pages/Usecontext";
 import Usememo from "./Pages/Usememo";
 import Jsfunctions from "./Pages/Jsfunctions";
+import Newpage from "./Pages/Newpage";
 
 function App() {
   const routes = [
@@ -32,31 +33,35 @@ function App() {
       element: <Aboutus />,
     },
 
-     {
+    {
       path: "/listing",
       element: <Datafetch />,
     },
 
-      {
+    {
       path: "/useref",
       element: <Useref />,
     },
 
-       {
+    {
       path: "/usecontext",
       element: <Usecontext />,
     },
 
-           {
+    {
       path: "/usememo",
       element: <Usememo />,
     },
 
-           {
+    {
       path: "/js-concepts",
-      element: <Jsfunctions/>,
+      element: <Jsfunctions />,
     },
-    
+
+      {
+      path: "/landing-page-2",
+      element: <Newpage />,
+    },
   ];
 
   return (
