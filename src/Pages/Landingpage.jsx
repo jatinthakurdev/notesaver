@@ -62,7 +62,7 @@ function PortfolioLanding() {
             </div>
 
             <h1 className="text-7xl md:text-8xl font-semibold tracking-tighter leading-none">
-              I craft digital
+              I dont dont do any
               <br />
               experiences that
               <br />
